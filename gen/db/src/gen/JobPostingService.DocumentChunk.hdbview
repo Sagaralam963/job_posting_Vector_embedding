@@ -1,0 +1,9 @@
+VIEW JobPostingService_DocumentChunk AS SELECT
+  DocumentChunk_0.ID,
+  DocumentChunk_0.createdAt,
+  DocumentChunk_0.createdBy,
+  DocumentChunk_0.modifiedAt,
+  DocumentChunk_0.modifiedBy,
+  DocumentChunk_0.metadata,
+  DocumentChunk_0.text_chunk
+FROM sap_codejam_DocumentChunk AS DocumentChunk_0

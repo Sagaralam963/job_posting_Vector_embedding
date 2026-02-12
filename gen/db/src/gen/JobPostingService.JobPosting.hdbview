@@ -1,0 +1,9 @@
+VIEW JobPostingService_JobPosting AS SELECT
+  JobPosting_0.ID,
+  JobPosting_0.createdAt,
+  JobPosting_0.createdBy,
+  JobPosting_0.modifiedAt,
+  JobPosting_0.modifiedBy,
+  JobPosting_0.user_query,
+  JobPosting_0.rag_response
+FROM sap_codejam_JobPosting AS JobPosting_0

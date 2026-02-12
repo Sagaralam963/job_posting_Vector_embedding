@@ -1,0 +1,11 @@
+COLUMN TABLE sap_codejam_DocumentChunk (
+  ID NVARCHAR(36) NOT NULL,
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(255),
+  modifiedAt TIMESTAMP,
+  modifiedBy NVARCHAR(255),
+  metadata NCLOB,
+  text_chunk NCLOB,
+  embedding REAL_VECTOR(1536),
+  PRIMARY KEY(ID)
+)

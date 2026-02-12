@@ -1,0 +1,33 @@
+{
+  "requires": {
+    "[hybrid]": {
+      "default_aicore": {
+        "binding": {
+          "type": "cf",
+          "apiEndpoint": "https://api.cf.us10.hana.ondemand.com",
+          "org": "Developer Advocates Free Tier_cap-ai-codejam-op6zhda1",
+          "space": "CodeJam-Dev",
+          "instance": "default_aicore",
+          "key": "default_aicore-key"
+        },
+        "vcap": {
+          "name": "default_aicore"
+        }
+      },
+      "db": {
+        "binding": {
+          "type": "cf",
+          "apiEndpoint": "https://api.cf.us10.hana.ondemand.com",
+          "org": "Developer Advocates Free Tier_cap-ai-codejam-op6zhda1",
+          "space": "CodeJam-Dev",
+          "instance": "SRA-HDI",
+          "key": "SRA-HDI-key"
+        },
+        "kind": "hana",
+        "vcap": {
+          "name": "db"
+        }
+      }
+    }
+  }
+}
